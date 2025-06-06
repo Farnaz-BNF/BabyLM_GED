@@ -1,0 +1,5 @@
+text,labels,UID,O_RoBERTa_preds,O_RoBERTa_probs
+Only steak that a lot of guests notice ever embarrassed Danielle.,G,only_npi_scope,SVA,"{'G': 2.525390625, 'PREP': -3.08984375, 'DET': -5.5, 'SVA': 5.28125}"
+Most ladies confuses that person.,G,determiner_noun_agreement_irregular_1,SVA,"{'G': 0.076904296875, 'PREP': -3.162109375, 'DET': -4.0625, 'SVA': 7.95703125}"
+Some actresses distracts Michael.,G,regular_plural_subject_verb_agreement_1,SVA,"{'G': -0.52099609375, 'PREP': -3.11328125, 'DET': -3.615234375, 'SVA': 8.40625}"
+All drivers confuses those ill actresses.,G,determiner_noun_agreement_with_adj_2,SVA,"{'G': -0.84814453125, 'PREP': -3.22265625, 'DET': -3.23046875, 'SVA': 8.6796875}"
