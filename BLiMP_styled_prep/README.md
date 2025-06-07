@@ -10,13 +10,14 @@ The `prep_filter_code.ipynb` includes all codes that are used to create a filter
 
 The final filtered BLiMP-style dataset for prepositions is stored in `preposition.json`.
 
+
+### Subdirectories  
 There are two subfolders with the following structure:
 
-	/data
-		Here you find BEA-2019 dataset used to create the BLiMP-style dataset for prepositions.
++ **data/**  
+	Here you find BEA-2019 dataset used to create the BLiMP-style dataset for prepositions.
 
----
++ **prep_data/**  
+	Any output of script and notebook is saved in this directory.
 
-	/prep_data
-		Any output of script and notebook is saved in this directory.
 
