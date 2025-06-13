@@ -1,0 +1,5 @@
+text,labels,UID,BB_RoBERTa_preds,BB_RoBERTa_probs
+The truth of Shopping,PREP,Preposition_Replacing,SVA,"{'G': 0.09027099609375, 'PREP': -2.626953125, 'DET': -5.16015625, 'SVA': 6.3515625}"
+First tell to your parents.,PREP,Preposition_Unnecessary,SVA,"{'G': -1.0830078125, 'PREP': -3.099609375, 'DET': -4.265625, 'SVA': 7.37890625}"
+from.,PREP,Preposition_Unnecessary,SVA,"{'G': 2.193359375, 'PREP': -2.25, 'DET': -5.7265625, 'SVA': 3.951171875}"
+A lot of money is involved in research to stop the increase levels of pollution.,PREP,Preposition_Missing,SVA,"{'G': -1.52734375, 'PREP': -2.587890625, 'DET': -4.12890625, 'SVA': 7.453125}"

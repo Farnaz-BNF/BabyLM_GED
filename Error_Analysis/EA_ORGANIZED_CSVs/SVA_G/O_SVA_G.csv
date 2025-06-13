@@ -1,0 +1,10 @@
+text,labels,UID,O_RoBERTa_preds,O_RoBERTa_probs
+The person bores Kevin.,SVA,irregular_plural_subject_verb_agreement_2,G,"{'G': 6.98046875, 'PREP': -2.77734375, 'DET': -5.10546875, 'SVA': -2.3125}"
+Some actresses distract Michael.,SVA,regular_plural_subject_verb_agreement_1,G,"{'G': 6.640625, 'PREP': -2.888671875, 'DET': -5.1953125, 'SVA': -1.5576171875}"
+A lot of alumni bother some hospital.,SVA,irregular_plural_subject_verb_agreement_1,G,"{'G': 6.91796875, 'PREP': -2.712890625, 'DET': -5.25, 'SVA': -2.185546875}"
+The noses bothers Alicia.,SVA,regular_plural_subject_verb_agreement_2,G,"{'G': 4.265625, 'PREP': -2.76953125, 'DET': -5.7421875, 'SVA': 2.56640625}"
+The oases hurts this doctor.,SVA,irregular_plural_subject_verb_agreement_2,G,"{'G': 6.828125, 'PREP': -2.80859375, 'DET': -5.28515625, 'SVA': -1.8447265625}"
+A lot of men insults Wayne.,SVA,irregular_plural_subject_verb_agreement_1,G,"{'G': 4.73828125, 'PREP': -2.65234375, 'DET': -5.8125, 'SVA': 1.7158203125}"
+The glasses bothers those senators.,SVA,regular_plural_subject_verb_agreement_2,G,"{'G': 6.5625, 'PREP': -2.84375, 'DET': -5.41796875, 'SVA': -1.294921875}"
+The Borgias shock Elaine.,SVA,regular_plural_subject_verb_agreement_1,G,"{'G': 6.78125, 'PREP': -2.888671875, 'DET': -5.05859375, 'SVA': -1.869140625}"
+Those men obliges every bank to cooperate.,SVA,irregular_plural_subject_verb_agreement_1,G,"{'G': 7.0703125, 'PREP': -2.42578125, 'DET': -5.8125, 'SVA': -2.40625}"

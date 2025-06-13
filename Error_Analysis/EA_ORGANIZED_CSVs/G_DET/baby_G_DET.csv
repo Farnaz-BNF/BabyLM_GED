@@ -1,0 +1,11 @@
+text,labels,UID,v20_l4_e9_preds,v20_l4_e9_probs
+Lawrence had concealed what that cake resembles.,G,wh_vs_that_with_gap,DET,"{'G': -1.421875, 'PREP': -1.71875, 'DET': 8.03125, 'SVA': -2.17578125}"
+Some children question every child that the movie embarrasses.,G,wh_questions_object_gap,DET,"{'G': -1.41796875, 'PREP': -1.6142578125, 'DET': 7.98046875, 'SVA': -2.296875}"
+It's himself that Aaron approached.,G,principle_A_reconstruction,DET,"{'G': 1.7109375, 'PREP': -2.291015625, 'DET': 3.58984375, 'SVA': -3.41015625}"
+Sarah researched some phenomenon that Jason researched.,G,wh_questions_object_gap,DET,"{'G': 1.80078125, 'PREP': -2.748046875, 'DET': 3.205078125, 'SVA': -2.70703125}"
+Travis should notice this hospital that all mouths annoy that hasn't upset every teacher.,G,wh_questions_subject_gap_long_distance,DET,"{'G': 1.740234375, 'PREP': -2.310546875, 'DET': 3.560546875, 'SVA': -3.318359375}"
+Some waiter should notice this mirror that Meredith isn't revealing that will disgust a lot of pedestrians.,G,wh_questions_subject_gap_long_distance,DET,"{'G': 0.488525390625, 'PREP': -2.30078125, 'DET': 5.703125, 'SVA': -2.96484375}"
+Lori thought about the girls that all girls attack that impresses these teachers.,G,wh_questions_subject_gap_long_distance,DET,"{'G': 1.2333984375, 'PREP': -2.69140625, 'DET': 4.328125, 'SVA': -2.712890625}"
+Those dancers think about themselves selling this pasta.,G,principle_A_case_2,DET,"{'G': -1.8486328125, 'PREP': -1.1689453125, 'DET': 8.2265625, 'SVA': -2.248046875}"
+Banks have thought about themselves confusing Theresa.,G,principle_A_case_2,DET,"{'G': -0.027557373046875, 'PREP': -2.548828125, 'DET': 2.6640625, 'SVA': 0.791015625}"
+Renee noticed some lady that cashiers praise.,G,wh_questions_object_gap,DET,"{'G': -0.411865234375, 'PREP': -2.46484375, 'DET': 6.8046875, 'SVA': -2.16796875}"

@@ -1,0 +1,2 @@
+text,labels,UID,v20_l4_e9_preds,v20_l4_e9_probs,BB_RoBERTa_preds,BB_RoBERTa_probs,O_RoBERTa_preds,O_RoBERTa_probs
+The sketch of these pictures alarm April.,SVA,distractor_agreement_relational_noun,DET,"{'G': -3.63671875, 'PREP': -1.181640625, 'DET': 4.26953125, 'SVA': 3.796875}",SVA,"{'G': -2.224609375, 'PREP': -2.431640625, 'DET': -3.580078125, 'SVA': 7.640625}",SVA,"{'G': -2.388671875, 'PREP': -3.09375, 'DET': -1.5732421875, 'SVA': 9.4296875}"

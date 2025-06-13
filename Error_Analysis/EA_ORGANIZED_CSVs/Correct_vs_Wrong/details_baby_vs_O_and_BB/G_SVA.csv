@@ -1,0 +1,2 @@
+text,labels,UID,v20_l4_e9_preds,v20_l4_e9_probs,BB_RoBERTa_preds,BB_RoBERTa_probs,O_RoBERTa_preds,O_RoBERTa_probs
+Only steak that a lot of guests notice ever embarrassed Danielle.,G,only_npi_scope,G,"{'G': 4.74609375, 'PREP': -2.669921875, 'DET': -4.28515625, 'SVA': -1.4296875}",SVA,"{'G': 1.73046875, 'PREP': -3.76171875, 'DET': -4.93359375, 'SVA': 5.3359375}",SVA,"{'G': 2.525390625, 'PREP': -3.08984375, 'DET': -5.5, 'SVA': 5.28125}"

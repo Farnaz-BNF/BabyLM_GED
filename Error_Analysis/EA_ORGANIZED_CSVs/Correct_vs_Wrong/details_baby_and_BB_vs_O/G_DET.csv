@@ -1,0 +1,2 @@
+text,labels,UID,v20_l4_e9_preds,v20_l4_e9_probs,BB_RoBERTa_preds,BB_RoBERTa_probs,O_RoBERTa_preds,O_RoBERTa_probs
+Matt can reveal one school and Lawrence can reveal a few brown school.,G,ellipsis_n_bar_2,G,"{'G': 4.9296875, 'PREP': -1.6943359375, 'DET': -3.810546875, 'SVA': -3.150390625}",G,"{'G': 6.78125, 'PREP': -1.83984375, 'DET': -4.66015625, 'SVA': -2.890625}",DET,"{'G': 3.20703125, 'PREP': -3.44921875, 'DET': 4.109375, 'SVA': -3.16796875}"

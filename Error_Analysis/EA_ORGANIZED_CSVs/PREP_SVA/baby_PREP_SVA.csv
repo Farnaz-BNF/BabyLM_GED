@@ -1,0 +1,2 @@
+text,labels,UID,v20_l4_e9_preds,v20_l4_e9_probs
+The truth of Shopping,PREP,Preposition_Replacing,SVA,"{'G': 0.47705078125, 'PREP': -2.91015625, 'DET': -3.001953125, 'SVA': 5.19921875}"

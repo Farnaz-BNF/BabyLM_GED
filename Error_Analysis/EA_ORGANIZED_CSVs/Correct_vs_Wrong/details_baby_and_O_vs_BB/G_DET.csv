@@ -1,0 +1,2 @@
+text,labels,UID,v20_l4_e9_preds,v20_l4_e9_probs,BB_RoBERTa_preds,BB_RoBERTa_probs,O_RoBERTa_preds,O_RoBERTa_probs
+Irene knew senators that Pamela hugs.,G,wh_questions_object_gap,G,"{'G': 5.19140625, 'PREP': -2.275390625, 'DET': -4.56640625, 'SVA': -2.380859375}",DET,"{'G': -0.75830078125, 'PREP': -2.568359375, 'DET': 8.2421875, 'SVA': -3.701171875}",G,"{'G': 7.1640625, 'PREP': -2.521484375, 'DET': -5.1640625, 'SVA': -2.96875}"
