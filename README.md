@@ -55,45 +55,59 @@ The structure of this repository is as follows:
 │    ├─── train_V20.pkl
 │    │    
 │    ├─── roberta-base
+|    |    |
 │    │    └─── zeroshot_with_prep
 │    │                
 │    ├─── roberta-base-strict-small-2023
+|    |    |
 │    │    └─── zeroshot_with_prep
 │    │                
 │    ├─── tokenizer_V20_folder
+|    |    |
 │    │    ├─── merges.txt
 │    │    └─── vocab.json
 │    │        
 │    └─── V20L4
+|         |
 │         ├─── model_e10_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e1_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e2_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e3_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e4_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e5_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 |         |
 │         ├─── model_e6_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e7_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         ├─── model_e8_v20_l4
+|         |    |
 │         │    └─── zeroshot_with_prep
 │         │                
 │         └─── model_e9_v20_l4
-│             └─── zeroshot_with_prep
+|              |
+│              └─── zeroshot_with_prep
 │                        
 ├─── BliMP_eval_code
 |    |
@@ -172,10 +186,12 @@ The structure of this repository is as follows:
 ├─── Error_Analysis
 |    |
 │    ├─── Error_Analysis_Code.ipynb
+│    ├─── Error_Analysis_Code_P2.ipynb
 │    ├─── README.md
 │    ├─── Save_model_outfiles_with_prob.ipynb
+│    │
 │    ├─── EA_CSV_files
-|    |	  |
+|    |    |
 │    │    ├─── all_correct.csv
 │    │    ├─── all_outfiles.csv
 │    │    ├─── all_wrongs.csv
@@ -210,19 +226,197 @@ The structure of this repository is as follows:
 │    │    ├─── o_roberta_vs_bb_roberta.csv
 │    │    ├─── O_SVA_G.csv
 │    │    └─── O_vs_baby_and_BB.csv
-│    │        
+│    │
+│    ├─── EA_ORGANIZED_CSVs
+|    |    |
+│    │    ├─── all_correct.csv
+│    │    ├─── all_outfiles.csv
+│    │    ├─── all_wrongs.csv
+│    │    │
+│    │    ├─── Compare_two_models
+|    |    |    |
+│    │    │    ├─── baby_vs_bb_roberta.csv
+│    │    │    ├─── baby_vs_o_roberta.csv
+│    │    │    ├─── bb_roberta_vs_baby.csv
+│    │    │    ├─── bb_roberta_vs_o_roberta.csv
+│    │    │    ├─── o_roberta_vs_baby.csv
+│    │    │    └─── o_roberta_vs_bb_roberta.csv
+│    │    │
+│    │    ├─── Correct_vs_Wrong
+|    |    |    |
+│    │    │    ├─── baby_and_BB_vs_O.csv
+│    │    │    ├─── baby_and_O_vs_BB.csv
+│    │    │    ├─── baby_vs_O_and_BB.csv
+│    │    │    ├─── BB_vs_baby_and_O.csv
+│    │    │    ├─── O_and_BB_vs_baby.csv
+│    │    │    ├─── O_vs_baby_and_BB.csv
+│    │    │    │
+│    │    │    ├─── details_baby_and_BB_vs_O
+|    |    |    |    |
+│    │    │    │    ├─── 30_G_PREP_baby_and_BB_vs_O.csv
+│    │    │    │    ├─── 30_PREP_G_baby_and_BB_vs_O.csv
+│    │    │    │    ├─── DET_G.csv
+│    │    │    │    ├─── DET_PREP.csv
+│    │    │    │    ├─── DET_SVA.csv
+│    │    │    │    ├─── File_info.json
+│    │    │    │    ├─── G_DET.csv
+│    │    │    │    ├─── G_PREP.csv
+│    │    │    │    ├─── G_SVA.csv
+│    │    │    │    ├─── info.json
+│    │    │    │    ├─── PREP_DET.csv
+│    │    │    │    ├─── PREP_G.csv
+│    │    │    │    ├─── PREP_SVA.csv
+│    │    │    │    ├─── SVA_DET.csv
+│    │    │    │    ├─── SVA_G.csv
+│    │    │    │    └─── SVA_PREP.csv
+│    │    │    │
+│    │    │    ├─── details_baby_and_O_vs_BB
+|    |    |    |    |
+│    │    │    │    ├─── 30_G_PREP_baby_and_O_vs_BB.csv
+│    │    │    │    ├─── 30_PREP_G_baby_and_O_vs_BB.csv
+│    │    │    │    ├─── DET_G.csv
+│    │    │    │    ├─── DET_PREP.csv
+│    │    │    │    ├─── DET_SVA.csv
+│    │    │    │    ├─── File_info.json
+│    │    │    │    ├─── G_DET.csv
+│    │    │    │    ├─── G_PREP.csv
+│    │    │    │    ├─── G_SVA.csv
+│    │    │    │    ├─── info.json
+│    │    │    │    ├─── PREP_DET.csv
+│    │    │    │    ├─── PREP_G.csv
+│    │    │    │    ├─── PREP_SVA.csv
+│    │    │    │    ├─── SVA_DET.csv
+│    │    │    │    ├─── SVA_G.csv
+│    │    │    │    └─── SVA_PREP.csv
+│    │    │    │
+│    │    │    ├─── details_baby_vs_O_and_BB
+|    |    |    |    |
+│    │    │    │    ├─── 30_G_PREP_baby_vs_O_and_BB.csv
+│    │    │    │    ├─── 30_PREP_G_baby_vs_O_and_BB.csv
+│    │    │    │    ├─── DET_G.csv
+│    │    │    │    ├─── DET_PREP.csv
+│    │    │    │    ├─── DET_SVA.csv
+│    │    │    │    ├─── File_info.json
+│    │    │    │    ├─── G_DET.csv
+│    │    │    │    ├─── G_PREP.csv
+│    │    │    │    ├─── G_SVA.csv
+│    │    │    │    ├─── info.json
+│    │    │    │    ├─── PREP_DET.csv
+│    │    │    │    ├─── PREP_G.csv
+│    │    │    │    ├─── PREP_SVA.csv
+│    │    │    │    ├─── SVA_DET.csv
+│    │    │    │    ├─── SVA_G.csv
+│    │    │    │    └─── SVA_PREP.csv
+│    │    │    │
+│    │    │    ├─── details_BB_vs_baby_and_O
+|    |    |    |    |
+│    │    │    │    ├─── 30_G_PREP_BB_vs_baby_and_O.csv
+│    │    │    │    ├─── 30_PREP_G_BB_vs_baby_and_O.csv
+│    │    │    │    ├─── DET_G.csv
+│    │    │    │    ├─── DET_PREP.csv
+│    │    │    │    ├─── DET_SVA.csv
+│    │    │    │    ├─── File_info.json
+│    │    │    │    ├─── G_DET.csv
+│    │    │    │    ├─── G_PREP.csv
+│    │    │    │    ├─── G_SVA.csv
+│    │    │    │    ├─── info.json
+│    │    │    │    ├─── PREP_DET.csv
+│    │    │    │    ├─── PREP_G.csv
+│    │    │    │    ├─── PREP_SVA.csv
+│    │    │    │    ├─── SVA_DET.csv
+│    │    │    │    ├─── SVA_G.csv
+│    │    │    │    └─── SVA_PREP.csv
+│    │    │    │
+│    │    │    ├─── details_O_and_BB_vs_baby
+|    |    |    |    |
+│    │    │    │    ├─── 30_G_PREP_O_and_BB_vs_baby.csv
+│    │    │    │    ├─── 30_PREP_G_O_and_BB_vs_baby.csv
+│    │    │    │    ├─── DET_G.csv
+│    │    │    │    ├─── DET_PREP.csv
+│    │    │    │    ├─── DET_SVA.csv
+│    │    │    │    ├─── File_info.json
+│    │    │    │    ├─── G_DET.csv
+│    │    │    │    ├─── G_PREP.csv
+│    │    │    │    ├─── G_SVA.csv
+│    │    │    │    ├─── info.json
+│    │    │    │    ├─── PREP_DET.csv
+│    │    │    │    ├─── PREP_G.csv
+│    │    │    │    ├─── PREP_SVA.csv
+│    │    │    │    ├─── SVA_DET.csv
+│    │    │    │    ├─── SVA_G.csv
+│    │    │    │    └─── SVA_PREP.csv
+│    │    │    │
+│    │    │    └─── details_O_vs_baby_and_BB
+|    |    |         |
+│    │    │         ├─── 30_G_PREP_O_vs_baby_and_BB.csv
+│    │    │         ├─── 30_PREP_G_O_vs_baby_and_BB.csv
+│    │    │         ├─── DET_G.csv
+│    │    │         ├─── DET_PREP.csv
+│    │    │         ├─── DET_SVA.csv
+│    │    │         ├─── File_info.json
+│    │    │         ├─── G_DET.csv
+│    │    │         ├─── G_PREP.csv
+│    │    │         ├─── G_SVA.csv
+│    │    │         ├─── info.json
+│    │    │         ├─── PREP_DET.csv
+│    │    │         ├─── PREP_G.csv
+│    │    │         ├─── PREP_SVA.csv
+│    │    │         ├─── SVA_DET.csv
+│    │    │         ├─── SVA_G.csv
+│    │    │         └─── SVA_PREP.csv
+│    │    │
+│    │    ├─── G_DET
+|    |    |    |
+│    │    │    ├─── baby_G_DET.csv
+│    │    │    ├─── BB_G_DET.csv
+│    │    │    └─── O_G_DET.csv
+│    │    │
+│    │    ├─── G_PREP
+|    |    |    |
+│    │    │    ├─── baby_G_PREP.csv
+│    │    │    ├─── BB_G_PREP.csv
+│    │    │    └─── O_G_PREP.csv
+│    │    │
+│    │    ├─── G_SVA
+|    |    |    |
+│    │    │    ├─── baby_G_SVA.csv
+│    │    │    ├─── BB_G_SVA.csv
+│    │    │    └─── O_G_SVA.csv
+│    │    │
+│    │    ├─── PREP_G
+|    |    |    |
+│    │    │    ├─── baby_PREP_G.csv
+│    │    │    ├─── BB_PREP_G.csv
+│    │    │    └─── O_PREP_G.csv
+│    │    │
+│    │    ├─── PREP_SVA
+|    |    |    |
+│    │    │    ├─── baby_PREP_SVA.csv
+│    │    │    ├─── BB_PREP_SVA.csv
+│    │    │    └─── O_PREP_SVA.csv
+│    │    │
+│    │    ├─── SVA_DET
+|    |    |    |
+│    │    │    └─── baby_SVA_DET.csv
+│    │    │
+│    │    └─── SVA_G
+|    |         |
+│    │         ├─── baby_SVA_G.csv
+│    │         ├─── BB_SVA_G.csv
+│    │         └─── O_SVA_G.csv
+│    │
 │    ├─── outfiles
-|    |	  |
+|    |    |
 │    │    ├─── outfile_bb_RoBERTa.csv
 │    │    ├─── outfile_o_RoBERTa.csv
 │    │    └─── outfile_v20_l4_e9.csv
-│    │        
+│    │
 │    └─── outfiles_with_prob
 |         |
 │         ├─── outfile_prob_bb_RoBERTa.csv
 │         ├─── outfile_prob_o_RoBERTa.csv
 │         └─── outfile_prob_v20_l4_e9.csv
-|
+│
 ├─── fine_tune
 |    |
 │    ├─── epoch_10_evals.json
@@ -235,7 +429,7 @@ The structure of this repository is as follows:
 │    ├─── Fine_Tune_Epochs_experiment.ipynb
 │    ├─── README.md
 │    ├─── data
-|    |	  |
+|    |    |
 │    │    ├─── all_prepared_data.csv
 │    │    ├─── dev_data.csv
 │    │    ├─── dev_test_no_split_data.csv
@@ -260,7 +454,7 @@ The structure of this repository is as follows:
 │    │         └─── subject_verb_agreement.json
 │    │            
 │    ├─── models
-|    |	  |
+|    |    |
 │    │    └─── fine_tuned_v20_l4_e9_model
 |    |         |
 │    │         ├─── config.json
@@ -291,7 +485,7 @@ The structure of this repository is as follows:
 ├─── seeds_experiment
 │    │    
 │    ├─── V40L4
-|    |	  |
+|    |    |
 │    |    ├─── S1278_BabyLM_V40_L4.ipynb
 │    |    ├─── S162_BabyLM_V40_L4.ipynb
 │    |    ├─── S354_BabyLM_V40_L4.ipynb
@@ -299,7 +493,7 @@ The structure of this repository is as follows:
 │    |    └─── S670_BabyLM_V40_L4.ipynb
 │    │    
 │    ├─── V20L4
-|    |	  |
+|    |    |
 │    │    ├─── S1278_BabyLM_V20_L4.ipynb
 │    │    ├─── S162_BabyLM_V20_L4.ipynb
 │    │    ├─── S354_BabyLM_V20_L4.ipynb
